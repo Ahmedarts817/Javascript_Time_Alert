@@ -13,10 +13,6 @@ submit.addEventListener("click", function () {
     }, time.value * 1000 * 60);
     setInterval(() => {
       interv.innerText = +interv.innerText + 1;
-    }, 1000);
+    }, 1000 * 60);
   }
 });
-
-// const intervStart = setInterval(() => {
-//   interv.innerText = +interv.innerText + 1;
-// }, 1000);
